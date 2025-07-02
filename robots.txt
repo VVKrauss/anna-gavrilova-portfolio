@@ -1,0 +1,33 @@
+# robots.txt для портфолио Анны Гавриловой
+# Разместить в корне сайта
+
+User-agent: *
+Allow: /
+
+# Запретить доступ к служебным файлам
+Disallow: /.htaccess
+Disallow: /robots.txt
+Disallow: /sitemap.xml
+
+# Указать расположение карты сайта
+Sitemap: https://yourdomain.com/sitemap.xml
+
+# Популярные поисковые боты
+User-agent: Googlebot
+Allow: /
+
+User-agent: Yandex
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Заблокировать нежелательных ботов
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
